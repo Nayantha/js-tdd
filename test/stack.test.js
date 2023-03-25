@@ -26,7 +26,7 @@ describe("My Stack", () => {
         expect(stack.top).toBe(-1)
         expect(stack.items).toEqual({})
     }) // it === test
-    // it.todo === tod*o
+    // it.todo === todo
     it("can push to the top", ()=>{
         stack.push("🎡")
         expect(stack.top).toBe(0)
